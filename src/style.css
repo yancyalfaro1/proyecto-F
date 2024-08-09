@@ -1,0 +1,31 @@
+body{
+    background-image: url(../src/img/css/descarga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+      
+
+}
+
+.contenedorPadre{
+    display: grid;
+        grid-template-columns: min-content min-content min-content;
+        grid-template-rows: min-content min-content min-content;
+        justify-content: center;
+}
+
+.position{
+    border: 1px solid  rgb(255, 151, 229);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: rgb(255, 151, 229);
+    font-size: 40;
+}
+.texto{
+text-align: center;
+}
